@@ -1,2 +1,19 @@
+ .holder {
+    display: grid;
+    grid-template-columns: repeat(2, 200px); /* Two columns each 200px wide */
+    grid-template-rows: repeat(2, 200px); /* Two rows each 200px tall */
+    gap: 10px; /* Gap between grid items */
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
 
-/* Your CSS Code here. */
+  /* Styles for the items */
+  .item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.5em;
+  }
