@@ -1,7 +1,7 @@
  .holder {
     display: grid;
-    grid-template-columns: repeat(2, 200px); /* Two columns each 200px wide */
-    grid-template-rows: repeat(2, 200px); /* Two rows each 200px tall */
+    grid-template-columns: repeat(2, 100px); /* Two columns each 200px wide */
+    grid-template-rows: repeat(2, 100px); /* Two rows each 200px tall */
     gap: 10px; /* Gap between grid items */
     max-width: 1000px;
     margin: 20px auto;
